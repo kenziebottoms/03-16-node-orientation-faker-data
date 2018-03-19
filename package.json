@@ -1,15 +1,28 @@
 {
-  "name": "faker-test",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "data:generate": "node ./build-data",
-    "db:generate": "node ./build-db"
-  },
-  "dependencies": {
-    "sqlite3": "^4.0.0"
-  },
-  "devDependencies": {
-    "faker": "^4.1.0"
-  }
+    "name": "faker-test",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "data:generate": "node ./build-data",
+        "db:generate": "node ./build-db"
+    },
+    "dependencies": {
+        "sqlite3": "^4.0.0"
+    },
+    "devDependencies": {
+        "faker": "^4.1.0"
+    },
+    "description": "To use this baby:",
+    "main": "build-data.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kenziebottoms/03-16-node-orientation-faker-data.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kenziebottoms/03-16-node-orientation-faker-data/issues"
+    },
+    "homepage": "https://github.com/kenziebottoms/03-16-node-orientation-faker-data#readme"
 }

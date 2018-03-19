@@ -2,4 +2,3 @@ node_modules
 *.sqlite
 customers.json
 products.json
-
